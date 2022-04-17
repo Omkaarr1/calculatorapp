@@ -3,7 +3,6 @@ let answer = document.getElementById("answer");
 inputs = document.querySelectorAll(".buttons input");
 
 let screenvalue = '';
-
 inputs.forEach(inp => {
     inp.addEventListener("click", (e) => {
         text = e.target.value;
