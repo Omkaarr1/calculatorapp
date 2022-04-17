@@ -4,37 +4,33 @@
     box-sizing: border-box;
 }
 
-body
-{
+body{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(#3928d1, #0ec235);
+    background: linear-gradient(#13d30d, #c70ddc);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.name
-{
+.name{
     width: 360px;
     text-align: center;
     padding-bottom: 15px;
-    color: rgba(2, 255, 91, 0.954);
+    color: rgb(35, 9, 206);
     font-family: 'Roboto', sans-serif;
 }
 
-.container
-{
+.container{
     width: 360px;
     padding: 15px;
-    background: rgba(198, 61, 184, 0.737);
+    background: rgba(255, 255, 255,0.1);
     border-radius: 12px;
-    box-shadow: 0 20px 50px rgba(19, 61, 139, 0.15);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
 }
 
-.container input[type="text"]
-{
+.container input[type="text"]{
     width: 100%;
     padding: 8px;
     font-size: 20px;
@@ -43,23 +39,23 @@ body
     height: 50px;
     color: white;
     background: transparent;
-    border: 2px solid rgba(9, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5)
 }
 
-.container input[type="button"]
-{
+
+.container input[type="button"]{
     outline: none;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    height: 70px;
-    color: rgb(16, 2, 2);
-    width: calc(100% /4 - 5px);
+    height: 65px;
+    color: white;
+    width:  calc(100% /4 - 5px);
     background: transparent;
     border-radius: 12px;
     margin-top: 15px;
 }
-.container input[type="button"]:hover
-{
-    background: rgba(237, 24, 24, 0.1);
+
+.container input[type="button"]:hover{
+    background: rgba(255, 255, 255,0.1);
 }
